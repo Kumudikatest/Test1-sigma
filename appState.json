@@ -33,6 +33,14 @@
           "runtime": "nodejs8.10",
           "timeout": 60,
           "memory": 128
+        },
+        "testCases": {
+          "792c6e1e-aef7-43a2-be9a-1bdaf9186de2": {
+            "id": "792c6e1e-aef7-43a2-be9a-1bdaf9186de2",
+            "name": "Unnamed event",
+            "functionId": "c7f05237-8c55-469e-accf-2084159e0b96",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
         }
       }
     },
@@ -92,12 +100,12 @@
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-2",
     "platform": "AWS",
-    "lastSave": 1542171056705
+    "lastSave": 1542171158239
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
-      "name": "Test1",
+      "name": "Test1-sigma",
       "url": "https://github.com/Kumudikatest/Test1-sigma"
     }
   }
