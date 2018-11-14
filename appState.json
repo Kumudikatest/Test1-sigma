@@ -1,0 +1,104 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3ae093b6-d077-4bd6-aeb8-2dc81f09d4a4": {
+        "id": "3ae093b6-d077-4bd6-aeb8-2dc81f09d4a4",
+        "parent": null,
+        "name": "Test1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c7f05237-8c55-469e-accf-2084159e0b96"
+        ],
+        "isRemovable": false,
+        "filePath": "Test1"
+      },
+      "c7f05237-8c55-469e-accf-2084159e0b96": {
+        "id": "c7f05237-8c55-469e-accf-2084159e0b96",
+        "parent": "3ae093b6-d077-4bd6-aeb8-2dc81f09d4a4",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [
+          {
+            "resourceName": "apigusEast2HJany",
+            "config": {}
+          }
+        ],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "3ae093b6-d077-4bd6-aeb8-2dc81f09d4a4",
+    "openFiles": [
+      "c7f05237-8c55-469e-accf-2084159e0b96"
+    ],
+    "currentFileId": "c7f05237-8c55-469e-accf-2084159e0b96",
+    "resources": {
+      "apigusEast2HJany": {
+        "name": "apigusEast2HJany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 1,
+          "apiName": "HJ",
+          "apiId": "arqvzixwn6",
+          "endpointType": "EDGE",
+          "rootResourceId": "49xvw6dzq7",
+          "existingResources": {
+            "/": "49xvw6dzq7",
+            "/jk": "zuti1p"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "49xvw6dzq7",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 1,
+          "stageName": "prod",
+          "stageDeploymentId": "wtv712"
+        },
+        "globallyEditable": false
+      }
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "c7f05237-8c55-469e-accf-2084159e0b96"
+  },
+  "PROJECT_META": {
+    "projectName": "Test1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "lastSave": 1542171056705
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Test1",
+      "url": "https://github.com/Kumudikatest/Test1-sigma"
+    }
+  }
+}
